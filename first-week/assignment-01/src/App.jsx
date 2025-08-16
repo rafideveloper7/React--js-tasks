@@ -7,7 +7,7 @@ import Blogs from "./Blogs.jsx"
 import Contact from "./Contact.jsx"
 
 function App() {
-  let currentPage = "About";
+  let currentPage = "Services";
   let pageContent = undefined;
   if (currentPage === "Home") pageContent = <><Home></Home></>;
   else if (currentPage === "Services") pageContent = <Services></Services>;
